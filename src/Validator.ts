@@ -20,7 +20,7 @@ export class Validator {
         return result;
     }
 
-    make (inputs: object , rules: object): void {
+    validate (inputs: object , rules: object): void {
         console.table(inputs);
 
         for (const [key, value] of Object.entries(rules)) {
