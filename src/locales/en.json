@@ -1,0 +1,11 @@
+{
+    "required": "{field} is required.",
+    "min": "{field} must be at least {value}.",
+    "max": "{field} must be at most {value}.",
+    "email": "{field} must be a valid email address.",
+    "regex": "{field} is invalid.",
+    "numeric": "{field} must be a number.",
+    "maxLen": "{field} must be at most {value} characters long.",
+    "minLen": "{field} must be at least {value} characters long.",
+    "same": "{field} must be the same as {value}."
+}
