@@ -16,6 +16,7 @@ async function validateInputs() {
       minLength: { value: 5, message: 'Username must have at least 5 characters.' },
     },
     password: {
+      required_if: { value: 'username,test', message: 'Password is required if username is provided.' },
       minLength: { value: 8, message: 'Password must have at least 8 characters.' },
     },
     confirmPassword: {
