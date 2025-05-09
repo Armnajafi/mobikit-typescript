@@ -1,2 +1,8 @@
-src
-*.ts
+src/
+tests/
+.github/
+.vscode/
+.gitignore
+tsconfig.json
+jest.config.js
+*.log
