@@ -1,6 +1,6 @@
 {
-  "name": "mobkit-typescript",
-  "version": "1.0.1",
+  "name": "mobikit-typescript",
+  "version": "1.0.0",
   "description": "TypeScript validation library with customizable rules and multilingual support for validating user inputs efficiently.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,12 +15,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Armnajafi/mobkit-typescript.git"
+    "url": "git+https://github.com/Armnajafi/mobikit-typescript.git"
   },
   "bugs": {
-    "url": "https://github.com/Armnajafi/mobkit-typescript/issues"
+    "url": "https://github.com/Armnajafi/mobikit-typescript/issues"
   },
-  "homepage": "https://github.com/Armnajafi/mobkit-typescript#readme",
+  "homepage": "https://github.com/Armnajafi/mobikit-typescript#readme",
   "devDependencies": {
     "@types/jest": "^29.5.0",
     "@types/node": "^18.15.11",

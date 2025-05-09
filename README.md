@@ -1,8 +1,8 @@
-# Mobkit TypeScript
+# Mobikit TypeScript
 
-![npm version](https://img.shields.io/npm/v/mobkit-typescript.svg)
-![License](https://img.shields.io/npm/l/mobkit-typescript.svg)
-![Downloads](https://img.shields.io/npm/dt/mobkit-typescript.svg)
+![npm version](https://img.shields.io/npm/v/mobikit-typescript.svg)
+![License](https://img.shields.io/npm/l/mobikit-typescript.svg)
+![Downloads](https://img.shields.io/npm/dt/mobikit-typescript.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Ready-blue.svg)
 
 A lightweight, flexible validation library for TypeScript applications with customizable rules and multilingual support.
@@ -10,13 +10,13 @@ A lightweight, flexible validation library for TypeScript applications with cust
 ## 📦 Installation
 
 ```bash
-npm install mobkit-typescript
+npm install mobikit-typescript
 ```
 
 ## 🚀 Basic Usage
 
 ```typescript
-import { Validator } from 'mobkit-typescript';
+import { Validator } from 'mobikit-typescript';
 
 // Create a validator instance (default locale is 'en')
 const validator = new Validator();
@@ -116,7 +116,7 @@ validateForm();
 
 ## 🌐 Multilingual Support
 
-mobkit TypeScript supports multiple languages for error messages:
+mobikit TypeScript supports multiple languages for error messages:
 
 ```typescript
 // Create a validator with a specific locale
