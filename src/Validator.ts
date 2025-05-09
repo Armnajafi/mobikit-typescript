@@ -19,6 +19,7 @@ import { RequiredWithRule } from './rules/RequiredWithRule';
 import { RequiredWithoutRule } from './rules/RequiredWithoutRule';
 import { RequiredWithAllRule } from './rules/RequiredWithAllRule';
 import { RequiredWithoutAllRule } from './rules/RequiredWithoutAllRule';
+import { UppercaseRule } from './rules/UppercaseRule';
 
 
 export class Validator {
@@ -40,7 +41,8 @@ export class Validator {
     required_with: new RequiredWithRule(),
     required_without: new RequiredWithoutRule(),
     required_with_all: new RequiredWithAllRule(),
-    required_without_all: new RequiredWithoutAllRule()
+    required_without_all: new RequiredWithoutAllRule(),
+    uppercase: new UppercaseRule()
   };
 
   constructor(private locale: string = 'en') {}

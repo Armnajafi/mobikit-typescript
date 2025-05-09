@@ -13,5 +13,6 @@
     "required_with": "The {field} field is required when {other} is present.",
     "required_without": "The {field} field is required when {other} is not present.",
     "required_with_all": "The {field} field is required when all of {other} are present.",
-  "required_without_all": "The {field} field is required when none of {other} are present."
+    "required_without_all": "The {field} field is required when none of {other} are present.",
+    "uppercase": "The {field} field must be uppercase."
 }
