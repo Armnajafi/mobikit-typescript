@@ -1,17 +1,17 @@
-# Rakit TypeScript
+# Mobkit TypeScript
 
 A lightweight, flexible validation library for TypeScript applications with customizable rules and multilingual support.
 
 ## Installation
 
 ```bash
-npm install rakit-typescript
+npm install mobkit-typescript
 ```
 
 ## Basic Usage
 
 ```typescript
-import { Validator } from 'rakit-typescript';
+import { Validator } from 'mobkit-typescript';
 
 // Create a validator instance (default locale is 'en')
 const validator = new Validator();
