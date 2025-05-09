@@ -18,5 +18,6 @@
     "lowercase": "The {field} field must be lowercase.",
     "json": "The {field} field must be a valid JSON string.",
     "alpha": "The {field} field must contain only alphabetic characters.",
-    "in": "The {field} field must be one of: {values}."
+    "in": "The {field} field must be one of: {values}.",
+    "not_in": "The {field} field must not be one of: {values}."
 }

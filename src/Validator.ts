@@ -24,6 +24,7 @@ import { LowercaseRule } from './rules/LowercaseRule';
 import { JsonRule } from './rules/JsonRule';
 import { AlphaRule } from './rules/AlphaRule';
 import { InRule } from './rules/InRule';
+import { NotInRule } from './rules/NotInRule';
 
 
 export class Validator {
@@ -50,7 +51,8 @@ export class Validator {
     lowercase: new LowercaseRule(),
     json: new JsonRule(),
     alpha: new AlphaRule(),
-    in: new InRule()
+    in: new InRule(),
+    not_in: new NotInRule()
   };
 
   constructor(private locale: string = 'en') {}
