@@ -17,6 +17,7 @@ import { RequiredIfRule } from './rules/RequiredIfRule';
 import { RequiredUnlessRule } from './rules/RequiredUnlessRule';
 import { RequiredWithRule } from './rules/RequiredWithRule';
 import { RequiredWithoutRule } from './rules/RequiredWithoutRule';
+import { RequiredWithAllRule } from './rules/RequiredWithAllRule';
 
 
 export class Validator {
@@ -36,7 +37,8 @@ export class Validator {
     required_if: new RequiredIfRule(), 
     required_unless: new RequiredUnlessRule(),
     required_with: new RequiredWithRule(),
-    required_without: new RequiredWithoutRule()
+    required_without: new RequiredWithoutRule(),
+    required_with_all: new RequiredWithAllRule()
   };
 
   constructor(private locale: string = 'en') {}
