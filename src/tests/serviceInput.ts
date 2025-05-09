@@ -1,4 +1,4 @@
-import { Validator } from '../Validator';
+import { Validator } from '../index';
 
 async function validateInputs() {
   const validator = new Validator('en');
