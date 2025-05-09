@@ -23,6 +23,7 @@ import { UppercaseRule } from './rules/UppercaseRule';
 import { LowercaseRule } from './rules/LowercaseRule';
 import { JsonRule } from './rules/JsonRule';
 import { AlphaRule } from './rules/AlphaRule';
+import { InRule } from './rules/InRule';
 
 
 export class Validator {
@@ -48,7 +49,8 @@ export class Validator {
     uppercase: new UppercaseRule(),
     lowercase: new LowercaseRule(),
     json: new JsonRule(),
-    alpha: new AlphaRule()
+    alpha: new AlphaRule(),
+    in: new InRule()
   };
 
   constructor(private locale: string = 'en') {}

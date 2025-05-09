@@ -17,5 +17,6 @@
     "uppercase": "The {field} field must be uppercase.",
     "lowercase": "The {field} field must be lowercase.",
     "json": "The {field} field must be a valid JSON string.",
-      "alpha": "The {field} field must contain only alphabetic characters."
+    "alpha": "The {field} field must contain only alphabetic characters.",
+    "in": "The {field} field must be one of: {values}."
 }
