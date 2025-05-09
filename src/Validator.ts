@@ -13,6 +13,8 @@ import fs from 'fs';
 import path from 'path';
 import { MaxLengthRule } from './rules/MaxLengthRule';
 import { MinLengthRule } from './rules/MinLengthRule';
+import { RequiredIfRule } from './rules/RequiredIfRule';
+import { RequiredUnlessRule } from './rules/RequiredUnlessRule';
 
 
 export class Validator {
@@ -28,7 +30,9 @@ export class Validator {
     same: new SameRule(),
     numeric: new NumericRule(),
     maxLen: new MaxLengthRule(),
-    minLen: new MinLengthRule()
+    minLen: new MinLengthRule(),
+    required_if: new RequiredIfRule(), 
+    required_unless: new RequiredUnlessRule()
   };
 
   constructor(private locale: string = 'en') {}
