@@ -1,4 +1,4 @@
-# Rakit TypeScript
+# Mobkit TypeScript
 
 A lightweight, flexible validation library for TypeScript applications with customizable rules and multilingual support.
 
