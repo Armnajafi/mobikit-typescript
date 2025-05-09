@@ -5,7 +5,7 @@ async function validateInputs() {
 
   // ورودی‌ها
   const inputs = {
-    username: 'test',
+    username: 'tst',
     password: 'password123',
     confirmPassword: 'password123',
     age: '25',

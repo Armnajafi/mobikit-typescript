@@ -1,6 +1,6 @@
 {
   "name": "mobikit-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "TypeScript validation library with customizable rules and multilingual support for validating user inputs efficiently.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
