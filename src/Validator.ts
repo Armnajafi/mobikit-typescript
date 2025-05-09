@@ -21,6 +21,7 @@ import { RequiredWithAllRule } from './rules/RequiredWithAllRule';
 import { RequiredWithoutAllRule } from './rules/RequiredWithoutAllRule';
 import { UppercaseRule } from './rules/UppercaseRule';
 import { LowercaseRule } from './rules/LowercaseRule';
+import { JsonRule } from './rules/JsonRule';
 
 
 export class Validator {
@@ -44,7 +45,8 @@ export class Validator {
     required_with_all: new RequiredWithAllRule(),
     required_without_all: new RequiredWithoutAllRule(),
     uppercase: new UppercaseRule(),
-    lowercase: new LowercaseRule()
+    lowercase: new LowercaseRule(),
+    json: new JsonRule()
   };
 
   constructor(private locale: string = 'en') {}

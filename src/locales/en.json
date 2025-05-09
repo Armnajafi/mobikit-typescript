@@ -15,5 +15,6 @@
     "required_with_all": "The {field} field is required when all of {other} are present.",
     "required_without_all": "The {field} field is required when none of {other} are present.",
     "uppercase": "The {field} field must be uppercase.",
-    "lowercase": "The {field} field must be lowercase."
+    "lowercase": "The {field} field must be lowercase.",
+    "json": "The {field} field must be a valid JSON string."
 }
