@@ -7,5 +7,7 @@
     "numeric": "{field} must be a number.",
     "maxLen": "{field} must be at most {value} characters long.",
     "minLen": "{field} must be at least {value} characters long.",
-    "same": "{field} must be the same as {value}."
+    "same": "{field} must be the same as {value}.",
+    "required_unless": "The {field} field is required unless {other} is {value}.",
+    "required_if": "The {field} field is required when {other} is {value}."
 }
