@@ -7,7 +7,7 @@ async function validateInputs() {
   const inputs = {
     username: 'test',
     password: 'password123',
-    confirmPassword: 'password12',
+    confirmPassword: 'password123',
     age: '25',
   };
 
@@ -28,8 +28,12 @@ async function validateInputs() {
 
 
   const errors = await validator.validate(inputs, rules);
-
-  console.log(errors);
+  if(errors){
+    console.log("errors")
+    console.log(errors);
+  } else {
+    console.log("no errors")
+  }
 }
 
 // اجرای تست

@@ -50,7 +50,7 @@ export class Validator {
   async validate(
     inputs: Record<string, any>,
     rules: Record<string, Record<string, { value: any; message: string }>>
-  ): Promise<Record<string, string[]>> {
+  ): Promise<Boolean | Record<string, string[]>> {
     await this.loadLocale();
 
     const errors: Record<string, string[]> = {};
@@ -73,6 +73,9 @@ export class Validator {
       }
     }
 
-    return errors;
+    // Check if errors object is empty
+    const hasErrors = Object.keys(errors).length > 0;
+
+    return hasErrors ? errors : false;
   }
 }
