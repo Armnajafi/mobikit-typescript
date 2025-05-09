@@ -10,5 +10,6 @@
     "same": "{field} must be the same as {value}.",
     "required_unless": "The {field} field is required unless {other} is {value}.",
     "required_if": "The {field} field is required when {other} is {value}.",
-    "required_with": "The {field} field is required when {other} is present."
+    "required_with": "The {field} field is required when {other} is present.",
+  "required_without": "The {field} field is required when {other} is not present."
 }

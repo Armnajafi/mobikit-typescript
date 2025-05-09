@@ -4,7 +4,7 @@
     "max": "مقدار {field} نباید بیشتر از {value} باشد.",
     "required_unless": "فیلد {field} الزامی است مگر اینکه {other} برابر با {value} باشد.",
     "required_if": "فیلد {field} هنگامی که {other} برابر با {value} است، الزامی می‌باشد.",
-    "required_with": "فیلد {field} هنگامی که {other} موجود باشد، الزامی است."
-  
+    "required_with": "فیلد {field} هنگامی که {other} موجود باشد، الزامی است.",
+    "required_without": "فیلد {field} هنگامی که {other} موجود نباشد، الزامی است."
   }
   

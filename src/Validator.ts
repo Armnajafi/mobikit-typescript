@@ -16,6 +16,7 @@ import { MinLengthRule } from './rules/MinLengthRule';
 import { RequiredIfRule } from './rules/RequiredIfRule';
 import { RequiredUnlessRule } from './rules/RequiredUnlessRule';
 import { RequiredWithRule } from './rules/RequiredWithRule';
+import { RequiredWithoutRule } from './rules/RequiredWithoutRule';
 
 
 export class Validator {
@@ -34,7 +35,8 @@ export class Validator {
     minLen: new MinLengthRule(),
     required_if: new RequiredIfRule(), 
     required_unless: new RequiredUnlessRule(),
-    required_with: new RequiredWithRule()
+    required_with: new RequiredWithRule(),
+    required_without: new RequiredWithoutRule()
   };
 
   constructor(private locale: string = 'en') {}
