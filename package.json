@@ -28,6 +28,11 @@
     "ts-jest": "^29.1.0",
     "typescript": "^5.0.4"
   },
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
   "files": [
     "dist",
     "LICENSE",
